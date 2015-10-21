@@ -160,7 +160,7 @@ button:hover{
 	background-color: #989898;
 	width: 2px;
 	height: 650px;
-    margin-left: 165px;
+    margin-left: 150px;
     margin-top: 20px;
 }
 
@@ -285,6 +285,7 @@ header{
 }
 footer {
 	height: 200px;	
+	margin: 0 auto;
 }
 .footer-contact{
 	border: none;
