@@ -160,7 +160,7 @@ button:hover{
 	background-color: #989898;
 	width: 2px;
 	height: 650px;
-    margin-left: 100px;
+    margin-left: 165px;
     margin-top: 20px;
 }
 
@@ -307,6 +307,7 @@ footer {
 .section-border{
 	height: 1px;
 	width: 400px;
+	margin-left: 5%;
 }
 .whiting{
 	float: none;
