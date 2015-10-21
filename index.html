@@ -6,63 +6,75 @@
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
 
-    	<title>Cristofaro Properties</title>
+    	<title>Cristofaro Properties | Home</title>
 
-    	<link rel="stylesheet" href="reset.css">
+    	<link rel="stylesheet" href="normalize.css">
+    	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,300italic,300,700,900' rel='stylesheet' type='text/css'>
+    	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 		<link rel="stylesheet" href="style.css">
 		<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
-    </head>
-
     <body>
     	<header>
     		<div class="container">
-	    		<h1>Logo image</h1>
+	    		<h1>CRISTOFARO properties</h1>
 	    		<nav class="header-nav">
 	    			<ul>
-	    				<li><a href="index.html">Home</a></li>
-	    				<li><a href="props.html">Properties</a></li> <!--flyout-->
-	    				<li><a href="apply.html">Apply</a></li>
-	    				<li><a href="contact.html">Contact</a></li>
-	    			</ul>
+	    				<li><a href="index.html">HOME</a></li>
+	    				<li><a href="props.html">PROPERTIES</a></li> 
+	    				<li><a href="apply.html">APPLY</a></li>
+	    				<li><a href="contact.html">CONTACT</a></li>
+	    			</ul> 
 	    		</nav>
 	    	</div>
     	</header>
-    	<div>
-    		<div class="container">
-	    		<a href="apply.html"><button class="apply-now-button">Apply Now</botton></a>
-	    		<!--image gallery need code-->
-	    	</div>
+    	<div class="image-gallery slider">
+    		<div><img src="images/image1.jpg"></div>
+    		<div><img src="images/image2.jpg"></div>
+    		<div><img src="images/image4.jpg"></div>
+    		<div><img src="images/image3.jpg"></div>
+    		<div><img src="images/image5.jpg"></div>
+    		<div><img src="images/image6.jpg"></div>
+    		<div><img src="images/image7.jpg"></div>
     	</div>
+    	<div class="button-wrap"><a href="apply.html"><button class="apply-button">Apply Now</button></a></div>
     	<div class="google-map">
-    		<!--google map-->
+    		<p>MAP</p>
+    		<iframe src="https://maps.google.com/maps?ht=en&q=260 East street Plainville, CT 06062&ie=UTF8&t=roadmap&z=14&iwloc=B&output=embed"></iframe>
     	</div>
-    	<div>
-    		<p class="user-quote">User Quote</p>
+    	<div class="user-quote">
+    		<blockquote>"I've called Crystal Commons home for over 10 years! The management is fantastic and the living spaces are modern and affordable."
+    		</blockquote>
+    		<blockquote>"Wonderful living and retail spaces for rent. Impeccably run by a great family."</blockquote>
     	</div>
     	<footer>
-    		<div class="container">
-	    		<div class="footer-contact">
-	    			<p>Office Hours<p>
-	    			<p>Contact</p>
-	    		</div>
-	    		<div>
-		    		<nav class="footer-nav">
+		    	<div class="footer-contact">
+		    		<h4>Office Hours<h4>
+		    		<p>Monday-Friday<br>9:00am - 5:00pm</p>
+		    		<p>Saturday<br>10:00am - 3:00pm</p>
+		    		<p>Sunday<br>12:00pm - 4:00pm</p>
+		   		</div>
+		   		<div class="footer-contact">
+		   			<h4>Contact</h4>
+		   			<p>Phone: 860.747.3518</p>
+		   			<p>Email: cristofaroprops@gmail.com</p>
+		   		</div> 
+		   		<div>
+		    		<nav class="footer-contact">
+		    			<h4>Follow</h4>
 						<ul>
-							<li>
-								<a href="#">
-								 <img src="images/twitter.png" alt="twitter logo bird" class="twitter">
-								</a>
+							<li class="twitter">
+								<img src="images/twitter.png" alt="twitter logo bird">
 							</li>
-							<li>
-								<a href="#">
+							<li class="facebook">
 								<img src="images/facebook.png" alt="facebook logo lowercase letter f" class="facebook">
-								</a>
 							</li>
 						</ul>
-					<nav>
-			</div>
+					</nav> 
+				</div>
     	</footer>
-    	<script scr="style.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="style.js"></script>
     </body>
 </html>
 

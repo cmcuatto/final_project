@@ -6,57 +6,111 @@
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
 
-    	<title>Cristofaro Properties</title>
+    	<title>Cristofaro Properties | Apply</title>
 
-    	<link rel="stylesheet" href="reset.css">
+    	<link rel="stylesheet" href="normalize.css">
+    	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,300italic,300,700,900' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="style.css">
 		<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
     </head>
-
     <body>
     	<header>
     		<div class="container">
-	    		<h1>Logo image</h1>
+	    		<h1>CRISTOFARO properties</h1>
 	    		<nav class="header-nav">
 	    			<ul>
-	    				<li><a href="index.html">Home</a></li>
-	    				<li><a href="props.html">Properties</a></li> <!--flyout-->
-	    				<li><a href="apply.html">Apply</a></li>
-	    				<li><a href="contact.html">Contact</a></li>
+	    				<li><a href="index.html">HOME</a></li>
+	    				<li><a href="props.html">PROPERTIES</a></li> 
+	    				<li><a href="apply.html">APPLY</a></li>
+	    				<li><a href="contact.html">CONTACT</a></li>
 	    			</ul>
 	    		</nav>
 	    	</div>
     	</header>
-
-    	<div class="submit-form">
-    		<!--submit form need code-->
-    		<button class="submit-button">Submit</button>
-    	</div>
-
+    	<div>
+    		<h3 class="apply-text">Create an Accout to Begin Your Application Today</h3>
+			<form id="apply-form-id">
+				<div class="form-row">
+					<label>Name 
+					<input type="text" name="name" placeholder="Jane Doe" class="required name"></label>
+				</div>
+				<div class="form-row">
+					<label>Email 
+					<input type="text" name="email" placeholder="youremail@gmail.com" class="required email"></label>
+				</div>
+				<div class="form-row">
+					<label>Password
+					<input type="password" name="password" class="required password"></label>
+				</div>
+				<div class="form-row">
+					<label>Current Salary Range</label>
+					<select>
+						<option>Choose</option>
+						<option>- 25,000</option>
+						<option>25,001 - 35,000</option>
+						<option>35,001 - 45,000</option>
+						<option>45,001 - 55,000</option>
+						<option>55,001 - 65,000</option>
+						<option>65,001 - 75,000</option>
+						<option>75,001 +</option>
+					</select>
+				</div>
+				<div class="form-row">
+					<div class="room-radio">
+						<label>Which space interests you?</label>
+						<input type="radio" name="live"> Studio
+						<input type="radio" name="live"> One Bedroom
+						<input type="radio" name="live"> Two Bedroom
+						<input type="radio" name="live"> Retail
+					</div>
+				</div>
+				<div class="form-row">
+					<label>How did you hear about us?</label>
+					<select>
+						<option>Choose</option>
+						<option>Craigslist</option>
+						<option>Live / Work in Area</option>
+						<option>Property Website</option>
+						<option>Realtor</option>
+						<option>Referal-Employee</option>
+						<option>Referal-Resident</option>
+					</select>
+				</div>
+				<div class="form-row">
+					<div class="terms-checkbox">
+						<input type="checkbox" name="terms_box">I agree to the terms
+					</div>
+				</div>
+				<div class="button-wrap"><button class="account-button" type="submit">Create Account</button></div>
+			</form>	
+		</div>
     	<footer>
-    		<div class="container">
-	    		<div class="footer-contact">
-	    			<p>Office Hours<p>
-	    			<p>Contact</p>
-	    		</div>
-	    		<div>
-		    		<nav class="footer-nav">
+		    	<div class="footer-contact">
+		    		<h4>Office Hours</h4>
+			    		<p>Monday-Friday<br>9:00am - 5:00pm</p>
+			    		<p>Saturday<br>10:00am - 3:00pm</p>
+		    			<p>Sunday<br>12:00pm - 4:00pm</p>
+		   		</div>
+		   		<div class="footer-contact">
+		   			<h4>Contact</h4>
+		   			<p>Phone: 860.747.3518</p>
+		   			<p>Email: cristofaroprops@gmail.com</p>
+		   		</div> 
+		   		<div>
+		    		<nav class="footer-contact">
+		    			<h4>Follow</h4>
 						<ul>
-							<li>
-								<a href="#">
-								 <img src="images/twitter.png" alt="twitter logo bird" class="twitter">
-								</a>
+							<li class="twitter">
+								 <img src="images/twitter.png" alt="twitter logo bird">
 							</li>
-							<li>
-								<a href="#">
-								<img src="images/facebook.png" alt="facebook logo lowercase letter f" class="facebook">
-								</a>
+							<li class="facebook">
+								<img src="images/facebook.png" alt="facebook logo lowercase letter f">
 							</li>
 						</ul>
-					<nav>
-			</div>
+					</nav>
+				</div>
     	</footer>
-    	<script scr="style.js"></script>
+    <script src="style.js"></script>
     </body>
 </html>
 
