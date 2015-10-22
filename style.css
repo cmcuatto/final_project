@@ -342,6 +342,9 @@ aside{
 }
 @media screen and (max-width: 600px){
 /*All*/
+header{ 
+height: 200px;
+}
 .header-nav ul {
 	margin-top: 10px;
 }
