@@ -160,8 +160,7 @@ button:hover{
 	background-color: #989898;
 	width: 2px;
 	height: 650px;
-    margin-left: 150px;
-    margin-top: 20px;
+   	margin-left: 13%;
 }
 
 /*Apply Body*/
@@ -353,7 +352,7 @@ header{
 	padding: 10px;
 }
 .header-nav a{
-	font-size: 11px;
+	font-size: 12px;
 }
 /*Home*/
 .user-quote{
