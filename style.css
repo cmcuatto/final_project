@@ -343,9 +343,6 @@ aside{
 }
 @media screen and (max-width: 600px){
 /*All*/
-body{
-	font-size: 12px;
-}
 header{
 	height: 100px;
 }
