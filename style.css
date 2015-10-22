@@ -347,6 +347,9 @@ aside{
 body{
 	font-size: 12px;
 }
+header{
+	height: 100px;
+}
 .header-nav ul {
 	margin-top: 10px;
 }
@@ -363,6 +366,9 @@ body{
 /*Properties*/
 .whiting h3, .east h3{
 	font-size: 16px;
+}
+.east img, .whiting img{
+	width: 98%;
 }
 /*Apply*/
 .apply-text{
