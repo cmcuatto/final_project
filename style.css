@@ -139,6 +139,7 @@ button:hover{
 	float: left;
 	margin-left: 5%;
 	max-width: 40%;
+	position: relative;
 }
 .whiting{
 	float: right;
@@ -160,7 +161,9 @@ button:hover{
 	background-color: #989898;
 	width: 2px;
 	height: 650px;
-   	margin-left: 13%;
+   	z-index: 2;
+   	position: absolute;
+   	margin-left: 50%;
 }
 
 /*Apply Body*/
