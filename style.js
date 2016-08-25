@@ -7,8 +7,7 @@ $('.required').on('blur', function(e){
 $('#apply-form-id').on('submit', function(event){
     var nameValid = validateField('.name');
     var emailValid = validateField('.email');
-    var passValid = validateField('.password');
-    if(nameValid && emailValid && passValid){
+    if(nameValid && emailValid){
       return true;
     } else {
       return false;
@@ -53,6 +52,20 @@ $(".readless").click(function(){
   	autoplaySpeed: 3000,
   	arrows: true,
 });
+
+$("account-button").on('submit', function(){
+  sendMail(this);
+
+  return false;
+});
+
+
+function sendMail() {
+    var link = "mailto:cmcuatto@gmail.com"
+             + "&subject=" + escape("New User")
+             + "&body=" + escape(document.getElementById('apply-form-id').value);
+    window.location.href = "http://cmcuatto.github.io/final_project/apply.html";
+}
 				
 
 });
