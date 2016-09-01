@@ -273,6 +273,9 @@ aside{
     font-size: 40px;
     font-weight: 700;
 }
+.contact a{
+	color: #003399;
+}
 /*Media CSS*/
 
 @media screen and (max-width: 768px){
