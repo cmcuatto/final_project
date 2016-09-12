@@ -129,13 +129,13 @@ button:hover{
 	margin-bottom: 50px;
 }
 .slick-next:before, .slick-prev:before{
-	color:#FFFFFF;
+	color:#003399;
 }
 .slick-next{
-	right: 25px;
+	right: 40px;
 }
 .slick-prev{
-	left: 25px;
+	left: 40px;
 }
 /*Properties*/
 .east{
