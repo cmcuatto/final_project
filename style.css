@@ -74,6 +74,9 @@ footer {
 .footer-contact a{
 	color:white;
 }
+.footer-contact a:hover{
+	color:#FF5050;
+}
 .twitter{
 	padding-right: 10px;
 	display: inline-block;
@@ -246,7 +249,7 @@ aside{
 }
 .bio{
   	width: 500px;
-  	height: 450px;
+  	height: 150px;
   	clear: both;
     margin: 0 auto;
     margin-bottom: 75px;
@@ -275,6 +278,9 @@ aside{
 }
 .contact a{
 	color: #003399;
+}
+.contact a:hover{
+	color: #FF5050;
 }
 /*Media CSS*/
 
