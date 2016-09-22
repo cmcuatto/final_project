@@ -52,20 +52,6 @@ $(".readless").click(function(){
   	autoplaySpeed: 5000,
   	arrows: true,
 });
-
-$("account-button").on('submit', function(){
-  sendMail(this);
-
-  return false;
-});
-
-
-function sendMail() {
-    var link = "mailto:cmcuatto@gmail.com"
-             + "&subject=" + escape("New User")
-             + "&body=" + escape(document.getElementById('apply-form-id').value);
-    window.location.href = "http://cmcuatto.github.io/final_project/apply.html";
-}
 				
 
 });

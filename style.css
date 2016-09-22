@@ -27,7 +27,7 @@ header {
 	margin: auto;
 	overflow: hidden;
 	height: 100px;
-	margin-bottom: 50px;
+	margin-bottom: 75px;
 }
 h1 {
 	font-weight: 300;
@@ -140,17 +140,9 @@ button:hover{
 	left: 40px;
 }
 /*Properties*/
-.maple{
-	float: left;
+.maple, .whiting{
 	margin-left: 5%;
-	max-width: 40%;
-	position: relative;
-}
-.whiting{
-	float: right;
-	margin-right: 5%;
-	margin-bottom: 50px;
-	max-width: 40%;
+	margin-bottom: 100px;
 }
 .whiting h3, .maple h3{
 	font-weight: 300;
@@ -160,15 +152,36 @@ button:hover{
 .whiting li, .maple li{
 	font-weight: 300;
 }
-.section-border{
-	float: left;
+.image-gallery2{
+	margin: 0 auto;
+	max-width: 400px;
+	background-color: #eee;
+}
+.image-gallery2 img{
+	margin: 0 auto;
+}
+.dropbtn li a{
+	color:#FF5050;
+	font-size: 16px;
+}
+.dropdown li{
 	display: inline-block;
-	background-color: #989898;
-	width: 2px;
-	height: 650px;
-   	z-index: 2;
-   	position: absolute;
-   	margin-left: 50%;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+}
+.dropdown-content a{
+	color:#003399;
+	padding: 8px 16px;
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+}
+.dropdown:hover	.dropdown-content{
+	display: block;
 }
 
 /*Apply Body*/
