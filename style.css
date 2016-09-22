@@ -91,6 +91,33 @@ button:hover{
 .button-wrap{
 	text-align: center;
 }
+.dropbtn li a{
+	color:#FF5050;
+	font-size: 16px;
+}
+.dropdown li{
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+}
+.dropdown-content a{
+	color:#003399;
+	padding: 8px 16px;
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+}
+.dropdown-content a:hover{
+	border-bottom: none;
+	background-color: #f1f1f1;
+}
+.dropdown:hover	.dropdown-content{
+	display: block;
+}
 
 /*HOME*/
 .google-map{
@@ -159,29 +186,6 @@ button:hover{
 }
 .image-gallery2 img{
 	margin: 0 auto;
-}
-.dropbtn li a{
-	color:#FF5050;
-	font-size: 16px;
-}
-.dropdown li{
-	display: inline-block;
-}
-.dropdown-content{
-	display: none;
-	position: absolute;
-	background-color: #f9f9f9;
-	min-width: 160px;
-}
-.dropdown-content a{
-	color:#003399;
-	padding: 8px 16px;
-	text-decoration: none;
-	display: block;
-	font-size: 12px;
-}
-.dropdown:hover	.dropdown-content{
-	display: block;
 }
 
 /*Apply Body*/
