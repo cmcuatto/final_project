@@ -118,6 +118,24 @@ button:hover{
 .dropdown:hover	.dropdown-content{
 	display: block;
 }
+.image-gallery{
+	margin: 0 auto;
+	max-width: 1000px;
+	background-color: #eee;
+}
+.image-gallery img{
+	margin: 0 auto;
+	max-width: 750px;
+}
+.slick-next:before, .slick-prev:before{
+	color:#003399;
+}
+.slick-next{
+	right: 40px;
+}
+.slick-prev{
+	left: 40px;
+}
 
 /*HOME*/
 .google-map{
@@ -140,14 +158,6 @@ button:hover{
 	border-top: 3px solid #989898;
 	border-bottom:3px solid #989898;
 }
-.image-gallery{
-	margin: 0 auto;
-	max-width: 1000px;
-	background-color: #eee;
-}
-.image-gallery img{
-	margin: 0 auto;
-}
 .apply-button{
 	border-radius: 10px;
 	color: #003399;
@@ -157,19 +167,11 @@ button:hover{
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-.slick-next:before, .slick-prev:before{
-	color:#003399;
-}
-.slick-next{
-	right: 40px;
-}
-.slick-prev{
-	left: 40px;
-}
+
 /*Properties*/
 .maple, .whiting{
 	margin-left: 5%;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 .whiting h3, .maple h3{
 	font-weight: 300;
@@ -178,14 +180,6 @@ button:hover{
 }
 .whiting li, .maple li{
 	font-weight: 300;
-}
-.image-gallery2{
-	margin: 0 auto;
-	max-width: 400px;
-	background-color: #eee;
-}
-.image-gallery2 img{
-	margin: 0 auto;
 }
 
 /*Apply Body*/
